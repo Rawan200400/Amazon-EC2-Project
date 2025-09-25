@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Introduction
+## 🚀 Introduction
 In this project, I worked with **Amazon Elastic Compute Cloud (EC2)** to learn how to launch, monitor, secure, and resize an instance.  
 The lab demonstrates how to configure a web server, update security groups, explore EC2 limits, and apply protection features such as termination protection and stop protection.  
 
@@ -43,7 +43,7 @@ The lab demonstrates how to configure a web server, update security groups, expl
 - Enabled **Termination Protection**.  
 - Added **User Data** script to install Apache web server and create a sample HTML page.  
 
-📷 *Launch Instance Summery:*  
+📷 *Launch Instance Summary:*  
 <img src="images/Ec2-details.png" width="600">
 
 📷 *Instance Running:*  
@@ -68,7 +68,6 @@ The lab demonstrates how to configure a web server, update security groups, expl
 
 <img src="images/logs2.png" width="600">
 
-
 📷 *Instance Screenshot:*  
 <img src="images/ec2-screenshot1.png" width="600">
 
@@ -86,21 +85,16 @@ The lab demonstrates how to configure a web server, update security groups, expl
 <img src="images/test1.png" width="600">
 
 📷 *Security Group Details:*  
-
 <img src="images/sec1.png" width="600">
 
-*Update Security Group:* 
+📷 *Adding Rule:*  
+<img src="images/sec2.png" width="600">
 
-   📷 *Adding Rule:*
-	<img src="images/sec2.png" width="600">
-   📷 *After Update:*
-	<img src="images/final-sec.png" width="600">
+📷 *After Update:*  
+<img src="images/final-sec.png" width="600">
 
-
-📷 *Web Server Test:* 
-      --*Message Displayed Successfully*--
-
-      <img src="images/test2.png" width="600">
+📷 *Web Server Test (Message Displayed Successfully):*  
+<img src="images/test2.png" width="600">
 
 ---
 
@@ -113,26 +107,25 @@ The lab demonstrates how to configure a web server, update security groups, expl
 
 📷 *Stop Instance:*  
 <img src="images/stop1.png" width="600">
-📷 *Stoped Check:*  
-<img src="images/stop2.png" width="600">
 
+📷 *Stopped Check:*  
+<img src="images/stop2.png" width="600">
 
 📷 *Change Instance Type:*  
 <img src="images/change-type1.png" width="600">
 
 <img src="images/change-type2.png" width="600">
 
-> **Note:**  
+> 📝 **Note:**  
 > *When you stop an instance, the instance shuts down.  
 > When you later start the instance, it is typically migrated to a new underlying host computer and assigned a new public IPv4 address.  
 > An instance retains its assigned private IPv4 address.  
 > When you stop an instance, it is not deleted. Any EBS volumes and the data on those volumes are retained.*
 
-📷 *Screenshot – Change stop protection:*  
+📷 *Change Stop Protection:*  
 <img src="images/change-type3.png" width="600">  
 
 <img src="images/change-type4.png" width="600">  
-
 
 📷 *EBS Volume Before Change:*  
 <img src="images/ebs1.png" width="600">
@@ -144,7 +137,6 @@ The lab demonstrates how to configure a web server, update security groups, expl
 
 📷 *EBS Volume After Change:*  
 <img src="images/final-ebs.png" width="600">
-
 
 📷 *Instance Restarted:*  
 <img src="images/ec2-restarted1.png" width="600">
